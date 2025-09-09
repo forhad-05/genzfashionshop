@@ -9,10 +9,14 @@ header {
     height: 715px;
     width: auto;
     height: 715px;
-    flex-shrink: 0;
+    background-image: url(/image/model.png);
+    background-repeat: no-repeat;
+    background-position: right 193px top 128px;
 
 
+ 
 }
+
 
 nav {
     display: flex;
@@ -57,9 +61,9 @@ nav ul {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    list-style-type: none; 
-    margin-left:350px;
-    margin-top:28px;
+    list-style-type: none;
+    margin-left: 350px;
+    margin-top: 28px;
 }
 
 .frame {
@@ -67,3 +71,67 @@ nav ul {
     width: 150px;
     height: 150px;
 }
+
+.section-title {
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 135px;
+    width: 360px;
+    height: 192px;
+}
+
+.sectioon-titlespan {
+    color: #FABE4C;
+}
+
+.section-para {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 135px;
+    width: 357px;
+    height: 52px;
+    margin-top: 5px;
+
+}
+
+.btr-primary {
+    width: 170px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    border: none;
+    margin-left: 135px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-right: 8px;
+
+
+
+}
+
+.shopping-cart {
+    width: 70px;
+    height: 30px;
+    margin-right: -17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
