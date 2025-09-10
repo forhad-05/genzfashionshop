@@ -159,7 +159,7 @@ section h3 {
 
 }
 
-.women-title-info {
+.women-title-info,.man-title-info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,13 +167,13 @@ section h3 {
 
 }
 
-.women-title-eachinfo {
+.women-title-eachinfo,.man-title-eachinfo{
     width: 600px;
     height: 550px;
     flex-shrink: 0;
 }
 
-.women-title-eachinfo {
+.women-title-eachinfo,.man-title-eachinfo{
     width: 450px;
     height: 600px;
     border-radius: 20px;
@@ -194,7 +194,7 @@ section h3 {
 
 }
 
-.women-jacket-border {
+.women-jacket-border,.man-jacket-border {
     display: flex;
     align-items: center;
     width: 400px;
