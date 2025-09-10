@@ -6,15 +6,15 @@
 
 header {
     background: #FFFBF0;
-    height: 715px;
-    width: auto;
-    height: 715px;
+    width: 2000px;
+    height: 900px;
+    flex-shrink: 0;
     background-image: url(/image/model.png);
     background-repeat: no-repeat;
-    background-position: right 193px top 128px;
+    background-position: right 450px top 160px;
 
 
- 
+
 }
 
 
@@ -27,13 +27,12 @@ nav {
 .genzfashion-title {
     color: #363958;
     font-family: Montserrat;
-    font-size: 25.426px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800px;
     line-height: normal;
     margin-top: 28PX;
     margin-left: 10px;
-    ;
 
 }
 
@@ -60,9 +59,9 @@ nav ul {
     line-height: 24px;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 70px;
     list-style-type: none;
-    margin-left: 350px;
+    margin-left: 500px;
     margin-top: 28px;
 }
 
@@ -70,6 +69,7 @@ nav ul {
     margin-top: -40px;
     width: 150px;
     height: 150px;
+    margin-left: 200px;
 }
 
 .section-title {
@@ -82,6 +82,7 @@ nav ul {
     margin-left: 135px;
     width: 360px;
     height: 192px;
+    margin-top: 100px;
 }
 
 .sectioon-titlespan {
@@ -98,7 +99,7 @@ nav ul {
     margin-left: 135px;
     width: 357px;
     height: 52px;
-    margin-top: 5px;
+    margin-top: 20px;
 
 }
 
@@ -135,3 +136,108 @@ nav ul {
     justify-content: center;
 }
 
+/*main start*/
+main {
+    width: 2000px;
+    height: 2906px;
+    background: #FFF;
+}
+
+section {
+    max-width: 100%;
+}
+
+section h3 {
+    color: #363958;
+    font-family: "Bebas Neue";
+    font-size: 48px;
+    font-weight: 400;
+    width: 225px;
+    height: 58px;
+    margin-top: 40px;
+    margin-left: 135px;
+
+}
+
+.women-title-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -220PX;
+
+}
+
+.women-title-eachinfo {
+    width: 600px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+.women-title-eachinfo {
+    width: 450px;
+    height: 600px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+    margin: 40px;
+}
+
+.imagejacket {
+    width: 293px;
+    height: 330px;
+    margin-left: 65px;
+    margin-right: 50px;
+    max-width: 90%;
+    margin-top: 5px;
+    border-radius: 20px;
+
+
+}
+
+.women-jacket-border {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F1F1F1;
+    margin-left: 25px;
+}
+
+section h4 {
+
+    color: #363958;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+section p {
+    color: #3E3E3E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+
+}
+
+.price-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-btn h4 {
+    color: #FABE4C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 15px;
+}
