@@ -7,7 +7,7 @@
 header {
     background: #FFFBF0;
     width: 2000px;
-    height: 715px;
+    height: 900px;
     flex-shrink: 0;
     background-image: url(/image/model.png);
     background-repeat: no-repeat;
@@ -311,5 +311,134 @@ section p {
     line-height: 26px;
     margin-left: 36px;
     margin-top: 14px;
-    
+
+}
+
+/*responsive */
+@media screen and (max-width: 480px) {
+
+    header {
+        width: 430px;
+        height: 900px;
+        flex-shrink: 0;
+        background-position: left 10px top 400px;
+        background-size: 90%;
+    }
+
+    .fame-icone {
+        width: 37.038px;
+        height: 26px;
+        flex-shrink: 0;
+        margin-left: 20px;
+        margin-top: -40PX;
+        padding-top: -40PX;
+    }
+
+    .genzfashion-title {
+        width: 148.982px;
+        height: 20.526px;
+        flex-shrink: 0;
+        font-size: 16px;
+        margin-top: -40PX;
+    }
+
+    .section-title {
+        width: 227PX;
+        height: 144PX;
+        font-size: 52PX;
+        margin-top: 0PX;
+        margin-left: 30PX;
+    }
+
+    nav ul,.frame {
+        visibility: hidden;
+    }
+
+    .section-para {
+        width: 295px;
+        height: 52px;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+
+    .btr-primary {
+        width: 170px;
+        height: 60px;
+        margin-left: 30PX;
+        padding-right: 20px;
+    }
+
+    /* /*main */
+    main {
+        width: 430px;
+        height: 5699px;
+
+    }
+
+    .women-title-info,
+    .man-title-info {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .women-title-eachinfo,
+    .man-title-eachinfo {
+        width: 370px;
+        height: 550px;
+        margin-left: 250px;
+
+    }
+
+    .women-jacket-border,
+    .man-jacket-border {
+        width: 304px;
+        height: 327px;
+        padding-left: 20px;
+    }
+
+    .imagejacket {
+        width: 293px;
+        height: 293px;
+        margin-left: 25px;
+
+    }
+
+    .women-title-eachinfo h4,
+    .man-title-eachinfo h4 {
+        font-size: 24px;
+        width: 270px;
+        height: 28px;
+        padding-bottom: 10px;
+    }
+
+    .women-title-eachinfo p,
+    .man-title-eachinfo p {
+        width: 299px;
+        height: 52px;
+    }
+
+    .price-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: -14px;
+    }
+
+    .price-btn h4 {
+        width: 84px;
+        height: 52px;
+        font-size: 36px;
+        margin-top: 25px;
+
+
+    }
+
+    .price-btn button {
+        
+    }
+
+
+
 }
