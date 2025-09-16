@@ -1,17 +1,17 @@
 * {
     margin: 0PX;
     padding: 0PX;
+    max-width: 1900px;
 
 }
 
 header {
     background: #FFFBF0;
-    width: 2000px;
     height: 900px;
     flex-shrink: 0;
     background-image: url(/image/model.png);
     background-repeat: no-repeat;
-    background-position: right 450px top 160px;
+    background-position: right 200px top 200px;
 
 
 
@@ -32,7 +32,7 @@ nav {
     font-weight: 800px;
     line-height: normal;
     margin-top: 28PX;
-    margin-left: 10px;
+    margin-left: px;
 
 }
 
@@ -42,13 +42,14 @@ nav {
 }
 
 nav img {
-    margin-top: 20px;
-    margin-left: 139px;
+    margin-top: 28px;
+    margin-left: 200px;
     width: 55.936px;
     height: 39.266px;
     flex-shrink: 0;
 
 }
+
 
 nav ul {
     color: #3C3C3C;
@@ -61,9 +62,10 @@ nav ul {
     justify-content: space-between;
     gap: 70px;
     list-style-type: none;
-    margin-left: 500px;
+    margin-left: 400px;
     margin-top: 28px;
 }
+
 
 .frame {
     margin-top: -40px;
@@ -71,7 +73,9 @@ nav ul {
     height: 150px;
     margin-left: 200px;
 }
-
+.fashiion-about{
+    margin-left: 110px;
+}
 .section-title {
     color: #363958;
     font-family: "Bebas Neue";
@@ -138,14 +142,10 @@ nav ul {
 
 /*main start*/
 main {
-    width: 2000px;
     height: 2300px;
     background: #FFF;
 }
 
-section {
-    max-width: 100%;
-}
 
 section h3 {
     color: #363958;
@@ -164,7 +164,7 @@ section h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: -220PX;
+
 
 }
 
@@ -206,6 +206,7 @@ section h3 {
     flex-shrink: 0;
     border-radius: 20px;
     background: #F1F1F1;
+    margin-top: 20px;
     margin-left: 25px;
 }
 
@@ -264,6 +265,7 @@ section p {
 
 .footer {
     margin-top: 50px;
+    margin-left: 260px;
 }
 
 .information {
@@ -316,7 +318,9 @@ section p {
 
 /*responsive */
 @media screen and (max-width: 480px) {
-
+     * {
+        max-width:430px ;
+     }
     header {
         width: 430px;
         height: 900px;
